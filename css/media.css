@@ -1,0 +1,97 @@
+/* Mobil qurilmalar uchun */
+@media only screen and (max-width: 767px) {
+  .nav-link {
+    padding: 15px 12px;
+  }
+
+  .header-title {
+    font-size: 36px;
+  }
+
+  .header-text {
+    max-width: 100%;
+    font-size: 14px;
+    margin: 20px 0 30px;
+  }
+
+  .header-button {
+    flex-direction: column;
+    column-gap: 15px;
+  }
+
+  .films-card__title,
+  .collections-card__title {
+    font-size: 18px;
+  }
+
+  .films-card__text,
+  .collections-card__content {
+    font-size: 12px;
+  }
+
+  .collections-card__title {
+    font-size: 16px;
+  }
+}
+
+/* Planshetlar uchun */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .nav-link {
+    padding: 25px 12px;
+  }
+
+  .header-title {
+    font-size: 48px;
+  }
+
+  .header-text {
+    max-width: 80%;
+    font-size: 16px;
+    margin: 30px 0 40px;
+  }
+
+  .films-card__title,
+  .collections-card__title {
+    font-size: 22px;
+  }
+
+  .films-card__text,
+  .collections-card__content {
+    font-size: 14px;
+  }
+
+  .collections-card__title {
+    font-size: 18px;
+  }
+}
+
+/* Katta ekranli qurilmalar uchun */
+@media only screen and (min-width: 1024px) {
+  .nav-link {
+    padding: 30px 12px;
+  }
+
+  .header-title {
+    font-size: 64px;
+  }
+
+  .header-text {
+    max-width: 570px;
+    font-size: 18px;
+    margin: 30px 0 50px;
+  }
+
+  .films-card__title,
+  .collections-card__title {
+    font-size: 24px;
+  }
+
+  .films-card__text,
+  .collections-card__content {
+    font-size: 16px;
+  }
+
+  .collections-card__title {
+    font-size: 22px;
+  }
+}
